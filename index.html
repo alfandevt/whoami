@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" 
+    content="an intermediate web developer who seek a job and love study new things, has good knowledge of javascript, reactjs, nodejs, php, mysql and postgresql">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>welcomeGuest__</title>
+</head>
+<body>
+    <div id="overlay">
+        <div id="ovContent">
+            <div id="about">
+                <h1>aboutMe_</h1>
+                <p>
+                    My name is Aldiansyah Fandevtian, i'm 20 years old.
+                    I'm student of Polytechnic LP3I Jakarta Kampus Cileungsi
+                    majoring Management Informatic for my Diploma III and
+                    hopefuly graduate on 2020, i'm a final year student btw... <br><br> 
+                    I'm an introvert 'a bit', i spent my day mostly in my room in front of my 'potato' PC learning
+                    programming language and light gaming, even as an introvert i also
+                    love to gathering with friends, tell some jokes, exchange ideas,
+                    and share story and experience. <br><br>
+                    I realy love javascript so much because it flexibility to run in web, in mobile as native apps,
+                    desktop apps, for build video games, even as RESTful server using nodeJs, isn't it amazing tho?.<br><br>
+                    Beside programming, i also love music and 3D modelling. 
+                    i have made some music using FL Studio, did perform it on public twice and also
+                    did beatbox perform in public commonly. <br><br>
+                    My dream are becoming helpful for everyone and having my own startup<br><br>
+                    
+                </p>
+            </div>
+            <div id="portfolio">
+                <h1>#myPortfolio</h1>
+                <h3>hmm... is this count?</h3>
+                <p id="hey">
+                    if you need something to done, would you like to contact me to do it for you?
+                </p>
+                <h2 id="wouldyou">would you?</h2>
+                <h3 id="button-con"><a href="javascript:openForm()" id="yes">YES, i would!</a><a href="javascript:redGone()" id="notNow" onclick="redGone()"><span id="yes2">YES</span>, but later :P</a></h3>
+                <div id="form">
+                    <h1 id="emailMeHead">emailMe_</h1>
+                
+                    <div id="emailMe">
+                        <div class="subject">
+                            <input type="text" id="subject" placeholder="Subject...">
+                        </div>
+                        <div class="body">
+                            <textarea cols="30" rows="8" id="body" placeholder="emailBody_"></textarea>
+                        </div>
+                    </div>
+                    <div id="reload">
+                        <h1>reloading_</h1>
+                    </div>
+                    <button onclick="mailMe(5000)" id="button" type="button">Send</button>
+                </div>
+                <p id="should">psstt.. i made this from scratch</p>
+            </div>
+            <div id="resume">
+                <div id="skills">
+                    <h1>Skills</h1>
+                    <div class="sk grw">
+                        <div id="sk-js" class="sk-item grw">
+                            <p>Frontend</p>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>Angular</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+                        <div id="sk-php" class="sk-item grw">
+                            <p>Backend</p>
+                            <ul>
+                                <li>NodeJs (ExpressJs)</li>
+                                <li>Python (Flask)</li>
+                            </ul>
+                        </div>
+                        <div id="sk-sql" class="sk-item grw">
+                            <p>Database</p>
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                        <div id="sk-g" class="sk-item grw">
+                            <p>Design</p>
+                            <ul>
+                                <li>Xd</li>
+                                <li>Ps</li>
+                                <li>Ai</li>
+                            </ul>
+                        </div>
+                        <div id="sk-m" class="sk-item grw">
+                            <p>Music</p>
+                            <ul>
+                                <li>FL Studio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="edu-bg">
+                    <h1>EduBG</h1>
+                    <div class="edu-c grw">
+                        <div id="clg" class="edu-item grw">
+                            <p>Politeknik LP3I Cileungsi</p>
+                            <p>|Manajemen Informatika</p>
+                        </div>
+                        <div id="hs" class="edu-item grw">
+                            <p>SMAN 2 Cileungsi</p>
+                        </div>
+                        <div id="jhs" class="edu-item grw">
+                            <p>SMP PGRI Surya Kencana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card">
+                <div id="img-wrap">
+                    <img src="./img/me3.jpg" alt="Aldiansyah Fandevtian">
+                </div>
+                <div id="img-txt">
+                    <h2>Aldiansyah Fandevtian</h2>
+                    <p>"impossible is nothing, i'm possible that's a thing!"</p>
+                    <p>
+                         Phone: (+62)87873940600 | 
+                         Email: fandevtian@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:tutupOv()" id="tutup">[x]close</a>
+    </div>
+    <div id="konten">
+        <div id="menu">
+            <a id="aboutMeClick" href="javascript:openOv(0)">About me</a>
+        </div>
+        <div id="box">
+            <h1 id="jam"></h1>
+            <h2>Welcome :)</h2>
+        </div>
+    </div>
+    <script src="./js/notScript.js"></script>
+    <script src="./js/jam.js"></script>
+</body>
+</html>
